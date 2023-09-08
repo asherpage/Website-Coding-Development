@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "scss": "^0.2.4",
+    "scss-utils": "^1.0.1"
+  }
+}
