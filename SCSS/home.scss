@@ -1,6 +1,39 @@
 @import "utils.scss";
+@font-face {
+    font-family: title;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
 .banner{
-    background-color: gray;
-    height: 20vw;
+    height: 30vw;
     width: 100%;
+    background-image: url(../images/home_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+    
+}
+.overlay{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 30vw;
+    opacity: .2;
+    width: 100%;
+    z-index: 4;
+    
+}
+.banner-info{
+    background-color: white;
+    height: 24vw;
+    top: 3vw;
+    right: 5vw;
+    float: right;
+    position: relative;
+    z-index: 5;
+    width: 35vw;
+    border-radius: 1rem;
+}
+.starting-info{
+    font-family: title;
+    font-size: 3.5vw;
+    text-align: center;
 }
