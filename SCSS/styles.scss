@@ -1,3 +1,17 @@
 @import "utils.scss";
 @import "nav.scss";
 @import "home.scss";
+::-webkit-scrollbar {
+    width: 5px;
+    background: $primary;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+}

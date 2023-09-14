@@ -1,8 +1,28 @@
 $background: #120a02;
-$primary: white;
+$primary: rgb(232, 232, 232);
 $secondary: #231c76;
 $tertiary: #004aad;
 *{
     margin: 0;
     padding: 0;
+}
+@font-face {
+    font-family: title;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: navbold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: nav;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: navl;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: kanit;
+    src: url(../fonts/Kanit-MediumItalic.ttf);
 }

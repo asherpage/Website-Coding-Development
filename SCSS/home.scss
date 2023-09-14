@@ -1,8 +1,4 @@
 @import "utils.scss";
-@font-face {
-    font-family: title;
-    src: url(../fonts/Roboto-Medium.ttf);
-}
 .banner{
     height: 30vw;
     width: 100%;
@@ -22,7 +18,7 @@
     
 }
 .banner-info{
-    background-color: white;
+    background-color: $primary;
     height: 24vw;
     top: 3vw;
     right: 5vw;
@@ -34,6 +30,20 @@
 }
 .starting-info{
     font-family: title;
-    font-size: 3.5vw;
+    font-weight: bold;
+    font-size: 2.5vw;
     text-align: center;
+}
+.slideshow{
+    background-color: aliceblue;
+    width: 50vw;
+    height: 20vw;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 25vw;
+}
+.shell{
+    width: 100%;
+    display: flex;
+  justify-content: center;
 }

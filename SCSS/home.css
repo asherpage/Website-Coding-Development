@@ -5,7 +5,23 @@
 
 @font-face {
   font-family: title;
-  src: url(../fonts/Roboto-Medium.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: navbold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: nav;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: navl;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: kanit;
+  src: url(../fonts/Kanit-MediumItalic.ttf);
 }
 .banner {
   height: 30vw;
@@ -26,7 +42,7 @@
 }
 
 .banner-info {
-  background-color: white;
+  background-color: rgb(232, 232, 232);
   height: 24vw;
   top: 3vw;
   right: 5vw;
@@ -39,6 +55,22 @@
 
 .starting-info {
   font-family: title;
-  font-size: 3.5vw;
+  font-weight: bold;
+  font-size: 2.5vw;
   text-align: center;
+}
+
+.slideshow {
+  background-color: aliceblue;
+  width: 50vw;
+  height: 20vw;
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 25vw;
+}
+
+.shell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=home.css.map */
