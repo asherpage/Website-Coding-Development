@@ -200,12 +200,6 @@
   justify-content: center;
 }
 
-.material-symbols-outlined {
-  width: 1vw;
-  height: 1vw;
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
 ::-webkit-scrollbar {
   width: 5px;
   background: rgb(232, 232, 232);
