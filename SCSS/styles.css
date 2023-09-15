@@ -214,3 +214,37 @@
 ::-webkit-scrollbar-thumb {
   background: gray;
 }/*# sourceMappingURL=styles.css.map */
+
+/*for width of "about you" box */
+.ab{
+  width: 30rem;
+  height: 10rem;
+  border-radius: 3rem;
+}
+
+
+/* for other input types */
+.txt{
+  font-family: kanit;
+  border-radius: 5rem;
+}
+
+/* this moves form to the middle of the screen */
+
+.form{
+  text-align: center;
+}
+
+/* for bigger font for titles to questions */
+
+.txt_{
+font-size: 1.2rem;
+font-family: kanit;
+}
+
+/* width for hr lines */
+
+.wdth{
+  margin-left: 25%;
+  width: 50%
+}
