@@ -1,2 +1,23 @@
 @import "utils.scss";
 
+$font-family_1: kanit;
+.ab {
+	width: 30rem;
+	height: 10rem;
+	border-radius: 3rem;
+}
+.txt {
+	font-family: $font-family_1;
+	border-radius: 5rem;
+}
+.form {
+	text-align: center;
+}
+.txt_ {
+	font-size: 1.2rem;
+	font-family: $font-family_1;
+}
+.wdth {
+	margin-left: 25%;
+	width: 50%;
+}
