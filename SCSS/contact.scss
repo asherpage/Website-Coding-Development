@@ -4,7 +4,7 @@ $font-family_1: kanit;
 .ab {
 	width: 30rem;
 	height: 10rem;
-	border-radius: 3rem;
+	border-radius: 2rem;
 }
 .txt {
 	font-family: $font-family_1;
@@ -12,6 +12,24 @@ $font-family_1: kanit;
 }
 .form {
 	text-align: center;
+    button{
+        margin-top: 2vw;
+        font-family: kanit;
+        width: 10vw;
+        height: 3vw;
+        border-radius: 2rem;
+        margin-bottom: 5vw;
+        // border: 2px solid $tertiary;
+        // color: $tertiary;
+        // background-color: $primary;
+        transition: 0.1s;
+        &:hover{
+            background-color: $tertiary;
+            color: $primary;
+            transition: 0.1s;
+            border: $tertiary;
+        }
+    }
 }
 .txt_ {
 	font-size: 1.2rem;
@@ -20,4 +38,45 @@ $font-family_1: kanit;
 .wdth {
 	margin-left: 25%;
 	width: 50%;
+}
+.banner{
+    height: 20vw;
+    width: 100%;
+    background-image: url(../images/photo-1541746972996-4e0b0f43e02a.avif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 15vw;
+    p{
+        font-size: 3.5vw;
+        padding-top: 3vw;
+        color: $primary;
+        font-family: navbold;
+        margin-bottom: 0;
+
+    }
+    h6{
+        font-size: 1vw;
+        color: $primary;
+        font-family: navbold;
+    }
+    
+}
+ .why-apply{
+    height: 12vw;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 5vw;
+    p{
+        font-size: 2vw;
+        padding-top: 3vw;
+        color: rgb(14, 14, 14);
+        padding: 1vw 0 0 15vw;
+        font-family: navbold;
+    }
+    h6{
+        font-size: 1vw;
+        color: rgb(14, 14, 14);
+        padding: 0 15vw 0 15vw;
+        font-family: nav;
+    }
 }

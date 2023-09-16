@@ -26,7 +26,7 @@
 .ab {
   width: 30rem;
   height: 10rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
 }
 
 .txt {
@@ -37,6 +37,21 @@
 .form {
   text-align: center;
 }
+.form button {
+  margin-top: 2vw;
+  font-family: kanit;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 2rem;
+  margin-bottom: 5vw;
+  transition: 0.1s;
+}
+.form button:hover {
+  background-color: #004aad;
+  color: rgb(232, 232, 232);
+  transition: 0.1s;
+  border: #004aad;
+}
 
 .txt_ {
   font-size: 1.2rem;
@@ -46,4 +61,45 @@
 .wdth {
   margin-left: 25%;
   width: 50%;
+}
+
+.banner {
+  height: 20vw;
+  width: 100%;
+  background-image: url(../images/photo-1541746972996-4e0b0f43e02a.avif);
+  background-position: center;
+  background-size: cover;
+  padding-left: 15vw;
+}
+.banner p {
+  font-size: 3.5vw;
+  padding-top: 3vw;
+  color: rgb(232, 232, 232);
+  font-family: navbold;
+  margin-bottom: 0;
+}
+.banner h6 {
+  font-size: 1vw;
+  color: rgb(232, 232, 232);
+  font-family: navbold;
+}
+
+.why-apply {
+  height: 12vw;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 5vw;
+}
+.why-apply p {
+  font-size: 2vw;
+  padding-top: 3vw;
+  color: rgb(14, 14, 14);
+  padding: 1vw 0 0 15vw;
+  font-family: navbold;
+}
+.why-apply h6 {
+  font-size: 1vw;
+  color: rgb(14, 14, 14);
+  padding: 0 15vw 0 15vw;
+  font-family: nav;
 }/*# sourceMappingURL=contact.css.map */
