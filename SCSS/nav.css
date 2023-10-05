@@ -23,79 +23,102 @@
   font-family: kanit;
   src: url(../fonts/Kanit-MediumItalic.ttf);
 }
-.nav-top {
-  background-color: #004aad;
-  z-index: 11;
-  color: rgb(232, 232, 232);
-  display: flex;
-  font-family: kanit;
-  font-weight: 400;
-  width: 100%;
-  height: 2vw;
-  top: 0;
-  text-align: center;
-}
-.nav-top p {
-  text-align: center;
-  font-size: 18px;
-  margin-left: 1vw;
-}
-.nav-top marquee {
-  width: 83%;
-  font-size: 18px;
+:root {
+  /* COLORS  */
+  /* primary */
+  --primary-200: #E3F2FD ;
+  --primary-300: #BBDEFB ;
+  --primary-400: #90CAF9 ;
+  /* main */
+  --primary-500: #64B5F6;
+  --primary-600: #42A5F5;
+  --primary-700: #2196F3;
+  --primary-800: #1E88E5 ;
+  --primary-900: #1976D2 ;
+  --primary-1000: #1565C0;
+  --primary-1100: #0D47A1 ;
+  /* grey */
+  --grey-0: #fafbfc;
+  --grey-50: #f2f4f8;
+  --grey-100: #eaedf3;
+  --grey-200: #e2e7ef;
+  --grey-300: #dbe0ea;
+  --grey-400: #d3dae6;
+  --grey-500: #cbd3e1;
+  --grey-600: #adb3bf;
+  --grey-700: #8e949e;
+  --grey-800: #70747c;
+  --grey-900: #51545a;
+  --grey-1000: #333538;
+  --grey-1100: #141516;
+  --grey-1200: #000000;
 }
 
-.nav {
-  background-color: rgb(232, 232, 232);
-  font-family: nav;
-  z-index: 10;
-  width: 100%;
-  top: 0;
-  position: sticky;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Change this to your desired background color */
+  color: white; /* Change this to your desired text color */
+  padding: 10px 20px;
   height: 5vw;
-  text-align: center;
-  overflow: hidden;
+  z-index: 1;
   position: sticky;
-}
-.nav button {
-  font-family: navbold;
-  background-color: rgb(232, 232, 232);
-  border: none;
-  color: #120a02;
-  text-decoration: none;
-  float: left;
-  width: 6vw;
-  height: 3vw;
-  margin: 1vw 1vw 0 0;
-  font-size: 1vw;
-  transition: 0.1s;
-  margin-bottom: 5vw;
-}
-.nav button:hover {
-  font-weight: bolder;
-  font-size: 17px;
-  transition: 0.1s;
-  color: #004aad;
-  text-decoration: underline;
-}
-.nav #phone {
-  float: right;
-  font-size: 1.5vw;
-  color: #004aad;
-  opacity: 0;
-  width: 15vw;
   font-family: kanit;
-  font-weight: 400;
 }
-.nav #phone:hover {
-  color: #120a02;
-}
-.nav .logo {
-  float: left;
-  width: 14vw;
+
+/* Style the logo */
+.logo img {
+  max-width: 100%;
   height: 4vw;
-  margin: 0.5vw 0 0 1vw;
-  background-image: url("../images/Capture.png");
-  background-position: center;
-  background-size: cover;
+  width: 11vw;
+}
+
+/* Style the buttons container */
+.buttons {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between buttons */
+}
+
+/* Style the navigation buttons */
+.nav-button {
+  background-color: #000000; /* Change this to your desired button color */
+  color: white; /* Change this to your desired text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: kanit;
+}
+
+/* Position the buttons on the right side */
+.buttons {
+  margin-left: auto;
+}
+
+.nav-top {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 1.5vw;
+  z-index: 5;
+  position: sticky;
+  float: right;
+  color: white;
+}
+.nav-top .review {
+  position: absolute;
+  top: 0.5vw;
+  right: 3vw;
+  color: white;
+  font-family: nav;
+  font-weight: 100;
+}
+
+.material-symbols-outlined {
+  margin: 0.5vw 0.5vw;
+  position: absolute;
+  right: 0.5vw;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }/*# sourceMappingURL=nav.css.map */
