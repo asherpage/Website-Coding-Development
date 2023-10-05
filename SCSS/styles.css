@@ -352,6 +352,7 @@
 .txt {
   font-family: kanit;
   border-radius: 0.5rem;
+  color: black;
 }
 
 .b1 {
@@ -373,6 +374,7 @@
 .txt_ {
   font-size: 1.2rem;
   font-family: kanit;
+  color: black;
 }
 
 .txt1 {
