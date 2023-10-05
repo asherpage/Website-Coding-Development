@@ -238,7 +238,7 @@
   border-radius: 0.5rem;
 }
 
-button {
+.b1 {
   margin-top: 2vw;
   font-family: kanit;
   width: 10vw;
@@ -247,7 +247,7 @@ button {
   margin-bottom: 5vw;
   transition: 0.1s;
 }
-button:hover {
+.b1:hover {
   background-color: black;
   color: rgb(232, 232, 232);
   transition: 0.1s;
