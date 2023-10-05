@@ -4,11 +4,11 @@ $font-family_1: kanit;
 .ab {
 	width: 30rem;
 	height: 10rem;
-	border-radius: 2rem;
+	border-radius: .5rem;
 }
 .txt {
 	font-family: $font-family_1;
-	border-radius: 5rem;
+	border-radius: .5rem;
 }
 .form {
 	text-align: center;
@@ -24,7 +24,7 @@ $font-family_1: kanit;
         // background-color: $primary;
         transition: 0.1s;
         &:hover{
-            background-color: $tertiary;
+            background-color: black;
             color: $primary;
             transition: 0.1s;
             border: $tertiary;
@@ -34,6 +34,16 @@ $font-family_1: kanit;
 .txt_ {
 	font-size: 1.2rem;
 	font-family: $font-family_1;
+}
+
+
+
+.txt1{
+    height: 10vw;
+    width: 25vw;
+    border-radius: .5vw;
+    resize: none;
+    font-family: $font-family_1;
 }
 .wdth {
 	margin-left: 25%;
@@ -65,7 +75,7 @@ $font-family_1: kanit;
     height: 12vw;
     width: 100%;
     background-color: rgb(243, 243, 243);
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
     p{
         font-size: 2vw;
         padding-top: 3vw;
@@ -79,4 +89,13 @@ $font-family_1: kanit;
         padding: 0 15vw 0 15vw;
         font-family: nav;
     }
+}
+
+
+.form{
+    border: .5vw solid black;
+    width: 50vw;
+    height: 65vw;
+    margin-left: 26vw;
+    border-radius: 3vw;
 }

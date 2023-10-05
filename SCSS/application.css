@@ -26,12 +26,12 @@
 .ab {
   width: 30rem;
   height: 10rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 
 .txt {
   font-family: kanit;
-  border-radius: 5rem;
+  border-radius: 0.5rem;
 }
 
 .form {
@@ -47,7 +47,7 @@
   transition: 0.1s;
 }
 .form button:hover {
-  background-color: #004aad;
+  background-color: black;
   color: rgb(232, 232, 232);
   transition: 0.1s;
   border: #004aad;
@@ -55,6 +55,14 @@
 
 .txt_ {
   font-size: 1.2rem;
+  font-family: kanit;
+}
+
+.txt1 {
+  height: 10vw;
+  width: 25vw;
+  border-radius: 0.5vw;
+  resize: none;
   font-family: kanit;
 }
 
@@ -88,7 +96,7 @@
   height: 12vw;
   width: 100%;
   background-color: rgb(243, 243, 243);
-  margin-bottom: 5vw;
+  margin-bottom: 1vw;
 }
 .why-apply p {
   font-size: 2vw;
@@ -102,4 +110,12 @@
   color: rgb(14, 14, 14);
   padding: 0 15vw 0 15vw;
   font-family: nav;
+}
+
+.form {
+  border: 0.5vw solid black;
+  width: 50vw;
+  height: 65vw;
+  margin-left: 26vw;
+  border-radius: 3vw;
 }/*# sourceMappingURL=application.css.map */
