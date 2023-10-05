@@ -51,57 +51,46 @@
   --grey-900: #51545a;
   --grey-1000: #333538;
   --grey-1100: #141516;
-  --grey-1100: #000000;
+  --grey-1200: #000000;
 }
 
-.banner {
-  height: 30vw;
-  width: 100%;
-  background-image: url(../images/home_image1.jpg);
+.banner-home {
+  background-image: url(../images/load_board_webpage_image_header_v2.jpg);
   background-position: center;
   background-size: cover;
-  z-index: 3;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 25vw;
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
 
 .overlay {
-  background-color: rgb(0, 0, 0);
   position: absolute;
-  height: 30vw;
-  opacity: 0.2;
-  width: 100%;
-  z-index: 4;
+  margin-top: 15vw;
+  width: 60vw;
+  height: 4vw;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  border-radius: 0.5rem;
+  left: 50%; /* Move it to the middle of the .banner-home */
+  transform: translateX(-50%); /* Adjust horizontally to center */
 }
 
-.banner-info {
-  background-color: rgb(232, 232, 232);
-  height: 24vw;
-  top: 3vw;
-  right: 5vw;
-  float: right;
-  position: relative;
-  z-index: 5;
-  width: 35vw;
-  border-radius: 1rem;
+.button-container {
+  display: flex; /* Make it a flex container */
 }
 
-.starting-info {
-  font-family: title;
-  font-weight: bold;
-  font-size: 2.5vw;
-  text-align: center;
-}
-
-.slideshow {
-  background-color: aliceblue;
-  width: 50vw;
-  height: 20vw;
-  border-radius: 1rem;
-  text-align: center;
-  margin-bottom: 25vw;
-}
-
-.shell {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.button {
+  background-color: #0fa93a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 10vw;
+  height: 3vw;
+  margin-top: 0.5vw;
+  margin-left: 0.5vw;
+  font-family: kanit;
 }/*# sourceMappingURL=home.css.map */

@@ -1,49 +1,44 @@
 @import "utils.scss";
-.banner{
-    height: 30vw;
-    width: 100%;
-    background-image: url(../images/home_image1.jpg);
+.banner-home{
+    background-image: url(../images/load_board_webpage_image_header_v2.jpg);
     background-position: center;
     background-size: cover;
-    z-index: 3;
-    
-}
-.overlay{
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    height: 30vw;
-    opacity: .2;
-    width: 100%;
-    z-index: 4;
-    
-}
-.banner-info{
-    background-color: $primary;
-    height: 24vw;
-    top: 3vw;
-    right: 5vw;
-    float: right;
+    background-repeat: no-repeat;
     position: relative;
-    z-index: 5;
-    width: 35vw;
-    border-radius: 1rem;
+height: 25vw;
+display: flex;
+    justify-content: center; /* Center horizontally */
 }
-.starting-info{
-    font-family: title;
-    font-weight: bold;
-    font-size: 2.5vw;
-    text-align: center;
+.overlay {
+    position: absolute;
+    margin-top: 15vw;
+    width: 60vw;
+    height: 4vw;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 0.5rem;
+    left: 50%; /* Move it to the middle of the .banner-home */
+    transform: translateX(-50%); /* Adjust horizontally to center */
 }
-.slideshow{
-    background-color: aliceblue;
-    width: 50vw;
-    height: 20vw;
-    border-radius: 1rem;
-    text-align: center;
-    margin-bottom: 25vw;
+.button-container {
+    display: flex; /* Make it a flex container */
 }
-.shell{
-    width: 100%;
-    display: flex;
-  justify-content: center;
+
+.button {
+    background-color: #0fa93a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 10vw;
+    height: 3vw;
+    margin-top: .5vw;
+    margin-left: .5vw;
+    font-family: kanit;
 }
+
+
+
+
+
