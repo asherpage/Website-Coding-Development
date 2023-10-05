@@ -238,10 +238,7 @@
   border-radius: 0.5rem;
 }
 
-.form {
-  text-align: center;
-}
-.form button {
+button {
   margin-top: 2vw;
   font-family: kanit;
   width: 10vw;
@@ -250,7 +247,7 @@
   margin-bottom: 5vw;
   transition: 0.1s;
 }
-.form button:hover {
+button:hover {
   background-color: black;
   color: rgb(232, 232, 232);
   transition: 0.1s;
@@ -316,7 +313,15 @@
   font-family: nav;
 }
 
-<<<<<<< Updated upstream
+.form {
+  border: 0.5vw solid black;
+  width: 50vw;
+  height: 65vw;
+  margin-left: 26vw;
+  border-radius: 3vw;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -459,14 +464,6 @@
 .abt-hours .learn-more p span {
   font-size: 1.5vw;
   font-family: navbold;
-=======
-.form {
-  border: 0.5vw solid black;
-  width: 50vw;
-  height: 65vw;
-  margin-left: 26vw;
-  border-radius: 3vw;
->>>>>>> Stashed changes
 }
 
 ::-webkit-scrollbar {

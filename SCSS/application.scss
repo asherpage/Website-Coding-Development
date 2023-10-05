@@ -10,8 +10,8 @@ $font-family_1: kanit;
 	font-family: $font-family_1;
 	border-radius: .5rem;
 }
-.form {
-	text-align: center;
+
+	
     button{
         margin-top: 2vw;
         font-family: kanit;
@@ -30,7 +30,6 @@ $font-family_1: kanit;
             border: $tertiary;
         }
     }
-}
 .txt_ {
 	font-size: 1.2rem;
 	font-family: $font-family_1;
@@ -98,4 +97,6 @@ $font-family_1: kanit;
     height: 65vw;
     margin-left: 26vw;
     border-radius: 3vw;
+    text-align: center;
 }
+

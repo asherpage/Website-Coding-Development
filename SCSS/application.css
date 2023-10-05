@@ -34,10 +34,7 @@
   border-radius: 0.5rem;
 }
 
-.form {
-  text-align: center;
-}
-.form button {
+button {
   margin-top: 2vw;
   font-family: kanit;
   width: 10vw;
@@ -46,7 +43,7 @@
   margin-bottom: 5vw;
   transition: 0.1s;
 }
-.form button:hover {
+button:hover {
   background-color: black;
   color: rgb(232, 232, 232);
   transition: 0.1s;
@@ -118,4 +115,5 @@
   height: 65vw;
   margin-left: 26vw;
   border-radius: 3vw;
+  text-align: center;
 }/*# sourceMappingURL=application.css.map */
