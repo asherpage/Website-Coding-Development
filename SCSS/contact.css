@@ -1,1 +1,143 @@
-/*# sourceMappingURL=contact.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: title;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: navbold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: nav;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: navl;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: kanit;
+  src: url(../fonts/Kanit-MediumItalic.ttf);
+}
+.ab1 {
+  width: 30rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+}
+
+.txt1 {
+  font-family: kanit;
+  border-radius: 0.5rem;
+  width: 30rem;
+}
+
+.form1 {
+  position: absolute;
+  margin-left: 15vw;
+  text-align: left;
+  width: 40vw;
+}
+.form1 button {
+  margin-top: 2vw;
+  font-family: kanit;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 0.5rem;
+  margin-bottom: 5vw;
+  transition: 0.1s;
+}
+.form1 button:hover {
+  background-color: #004aad;
+  color: rgb(232, 232, 232);
+  transition: 0.1s;
+  border: #004aad;
+}
+
+.txt_1 {
+  font-size: 1.2rem;
+  font-family: kanit;
+}
+
+.wdth1 {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.banner1 {
+  height: 20vw;
+  width: 100%;
+  background-image: url(../images/photo-1541746972996-4e0b0f43e02a.avif);
+  background-position: center;
+  background-size: cover;
+  padding-left: 15vw;
+}
+.banner1 p {
+  font-size: 3.5vw;
+  padding-top: 3vw;
+  color: rgb(232, 232, 232);
+  font-family: navbold;
+  margin-bottom: 0;
+}
+.banner1 h6 {
+  font-size: 1vw;
+  color: rgb(232, 232, 232);
+  font-family: navbold;
+}
+
+.why-apply1 {
+  height: 12vw;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 5vw;
+}
+.why-apply1 p {
+  font-size: 2vw;
+  padding-top: 3vw;
+  color: rgb(14, 14, 14);
+  padding: 1vw 0 0 15vw;
+  font-family: navbold;
+}
+.why-apply1 h6 {
+  font-size: 1vw;
+  color: rgb(14, 14, 14);
+  padding: 0 15vw 0 15vw;
+  font-family: nav;
+}
+
+.abt-hours {
+  float: right;
+  text-align: center;
+  border-radius: 0.5rem;
+  position: absolute;
+  background-color: rgb(213, 213, 213);
+  right: 15vw;
+  width: 29vw;
+  height: 29vw;
+}
+.abt-hours .learn-more {
+  font-family: kanit;
+  width: 27vw;
+  height: 3vw;
+  position: relative;
+  bottom: 0;
+  border-radius: 0.5rem;
+  transition: 0.1s;
+}
+.abt-hours .learn-more:hover {
+  background-color: #004aad;
+  color: rgb(232, 232, 232);
+  transition: 0.1s;
+  border: #004aad;
+}
+.abt-hours .learn-more p {
+  font-size: 1vw;
+  font-family: nav;
+}
+.abt-hours .learn-more p span {
+  font-size: 1.5vw;
+  font-family: navbold;
+}/*# sourceMappingURL=contact.css.map */
