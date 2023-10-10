@@ -51,7 +51,7 @@
   --grey-900: #51545a;
   --grey-1000: #333538;
   --grey-1100: #141516;
-  --grey-1100: #000000;
+  --grey-1200: #000000;
 }
 
 .ab {
@@ -63,6 +63,7 @@
 .txt {
   font-family: kanit;
   border-radius: 0.5rem;
+  color: black;
 }
 
 .b1 {
@@ -84,6 +85,7 @@
 .txt_ {
   font-size: 1.2rem;
   font-family: kanit;
+  color: black;
 }
 
 .txt1 {

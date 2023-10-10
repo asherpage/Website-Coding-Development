@@ -9,6 +9,7 @@ $font-family_1: kanit;
 .txt {
 	font-family: $font-family_1;
 	border-radius: .5rem;
+    color: black;
 }
 
 	
@@ -33,6 +34,7 @@ $font-family_1: kanit;
 .txt_ {
 	font-size: 1.2rem;
 	font-family: $font-family_1;
+    color: black;
 }
 
 
@@ -98,5 +100,6 @@ $font-family_1: kanit;
     margin-left: 26vw;
     border-radius: 3vw;
     text-align: center;
+    // background-color: rgb(10, 127, 222);
 }
 
