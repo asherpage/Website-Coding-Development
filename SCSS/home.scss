@@ -1,4 +1,5 @@
 @import "utils.scss";
+@import "nav.scss";
 .banner-home{
     background-image: url(../images/load_board_webpage_image_header_v2.jpg);
     background-position: center;
@@ -11,8 +12,8 @@ display: flex;
 }
 .overlay {
     position: absolute;
-    margin-top: 15vw;
-    width: 60vw;
+    margin-top: 12rem;
+    width: 53rem;
     height: 4vw;
     background-color: white;
     box-shadow: 0 0 10px black;
@@ -28,17 +29,77 @@ display: flex;
     background-color: #0fa93a;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
     font-size: 16px;
-    width: 10vw;
-    height: 3vw;
-    margin-top: .5vw;
-    margin-left: .5vw;
+    width: 10rem;
+    height: 3rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    font-family: kanit;
+    transition: 0.3s;
+    &:hover{
+        background-color: #0d7c2c;
+        transition: 0.3s;
+    }
+}
+.inputy {
+    background-color: #e4e4e4;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 16px;
+    width: 10rem;
+    height: 3rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
     font-family: kanit;
 }
+#date{
+    color: rgb(110, 110, 110);
+}
 
+.home-about{
+    margin-top: 2vw;
+    width: 100%;
+    text-align: center;
+    h1{
+        font-family: title;
+    }
+}
 
+.container {
+    display: flex;
+    
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
 
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
 
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  }
