@@ -4,17 +4,3 @@
 @import "application.scss";
 @import "about.scss";
 @import "contact.scss";
-::-webkit-scrollbar {
-    width: 5px;
-    background: $primary;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: gray;
-}

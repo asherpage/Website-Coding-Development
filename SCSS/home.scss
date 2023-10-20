@@ -67,6 +67,8 @@ display: flex;
     text-align: center;
     h1{
         font-family: title;
+        font-weight: 500;
+        margin-bottom: 2rem;
     }
 }
 
@@ -103,3 +105,37 @@ display: flex;
     display: block;
   }
   }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    width: 90rem;
+  }
+
+  .box {
+    width: 22rem;
+    text-align: left;
+    height: 15rem;
+    margin: 0rem 2rem 0rem 2rem;
+    border-radius: 0.5rem;
+    img{
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    background: $primary;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+}

@@ -114,8 +114,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
   height: 5vw;
   z-index: 9;
@@ -139,8 +139,8 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -156,20 +156,20 @@
 }
 
 .nav-top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 1.5vw;
   top: 0;
   z-index: 10;
   position: sticky;
   float: right;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .nav-top .review {
   position: absolute;
   top: 0.5vw;
   right: 3vw;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: nav;
   font-weight: 100;
 }
@@ -297,8 +297,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
   height: 5vw;
   z-index: 9;
@@ -322,8 +322,8 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -339,20 +339,20 @@
 }
 
 .nav-top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 1.5vw;
   top: 0;
   z-index: 10;
   position: sticky;
   float: right;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .nav-top .review {
   position: absolute;
   top: 0.5vw;
   right: 3vw;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: nav;
   font-weight: 100;
 }
@@ -377,8 +377,8 @@
 
 .overlay {
   position: absolute;
-  margin-top: 15vw;
-  width: 53vw;
+  margin-top: 12rem;
+  width: 53rem;
   height: 4vw;
   background-color: white;
   box-shadow: 0 0 10px black;
@@ -395,13 +395,13 @@
   background-color: #0fa93a;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-size: 16px;
-  width: 10vw;
-  height: 3vw;
-  margin-top: 0.5vw;
-  margin-left: 0.5vw;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
   font-family: kanit;
   transition: 0.3s;
 }
@@ -415,13 +415,13 @@
   text-align: center;
   color: black;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-size: 16px;
-  width: 10vw;
-  height: 3vw;
-  margin-top: 0.5vw;
-  margin-left: 0.5vw;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
   font-family: kanit;
 }
 
@@ -436,6 +436,8 @@
 }
 .home-about h1 {
   font-family: title;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -466,6 +468,42 @@
   display: block;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 32rem;
+  width: 90rem;
+}
+
+.box {
+  width: 22rem;
+  text-align: left;
+  height: 15rem;
+  margin: 0rem 2rem 0rem 2rem;
+  border-radius: 0.5rem;
+}
+.box img {
+  height: 5rem;
+  width: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(232, 232, 232);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -582,8 +620,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
   height: 5vw;
   z-index: 9;
@@ -607,8 +645,8 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -624,20 +662,20 @@
 }
 
 .nav-top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 1.5vw;
   top: 0;
   z-index: 10;
   position: sticky;
   float: right;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .nav-top .review {
   position: absolute;
   top: 0.5vw;
   right: 3vw;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: nav;
   font-weight: 100;
 }
@@ -806,8 +844,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
   height: 5vw;
   z-index: 9;
@@ -831,8 +869,8 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -848,20 +886,20 @@
 }
 
 .nav-top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 1.5vw;
   top: 0;
   z-index: 10;
   position: sticky;
   float: right;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .nav-top .review {
   position: absolute;
   top: 0.5vw;
   right: 3vw;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: nav;
   font-weight: 100;
 }
@@ -989,8 +1027,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
   height: 5vw;
   z-index: 9;
@@ -1014,8 +1052,8 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -1031,20 +1069,20 @@
 }
 
 .nav-top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 1.5vw;
   top: 0;
   z-index: 10;
   position: sticky;
   float: right;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .nav-top .review {
   position: absolute;
   top: 0.5vw;
   right: 3vw;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: nav;
   font-weight: 100;
 }
@@ -1173,19 +1211,4 @@
 .abt-hours .learn-more p span {
   font-size: 1.5vw;
   font-family: navbold;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-  background: rgb(232, 232, 232);
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: gray;
 }/*# sourceMappingURL=styles.css.map */
