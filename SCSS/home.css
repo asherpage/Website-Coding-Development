@@ -114,22 +114,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  left: 0;
   background-color: #ffffff; /* Change this to your desired background color */
   color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
-  height: 5vw;
+  height: 6rem;
   z-index: 9;
-  top: 1.5vw;
+  top: 0;
   position: sticky;
   font-family: kanit;
 }
 
 /* Style the logo */
 .logo img {
-  margin-top: -2rem;
+  margin-top: 0;
   max-width: 100%;
   height: 5rem;
-  width: 11rem;
+  width: 15rem;
 }
 
 /* Style the buttons container */
@@ -146,33 +147,32 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
 
 /* Position the buttons on the right side */
 .buttons {
-  margin-left: auto;
+  margin-right: auto;
 }
 
-.nav-top {
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  height: 1.5vw;
-  top: 0;
-  z-index: 10;
-  position: sticky;
-  float: right;
-  color: rgb(0, 0, 0);
-}
-.nav-top .review {
+.testi {
+  border: 3px solid #0dd60d;
+  background-color: #ffffff;
+  color: #0dd60d;
+  transition: 0.3s;
   position: absolute;
-  top: 0.5vw;
-  right: 3vw;
-  color: rgb(0, 0, 0);
-  font-family: nav;
-  font-weight: 100;
+  right: 1.5rem;
+  /* Position the element to the right */
+  top: 1.5rem;
+  /* Adjust vertical positioning if needed */
+}
+.testi:hover {
+  background-color: #0dd60d;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .material-symbols-outlined {
@@ -180,6 +180,14 @@
   position: absolute;
   right: 0.5vw;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.review {
+  font-family: navbold;
+  font-weight: 500;
+  position: fixed;
+  right: 1rem;
+  z-index: 20;
 }
 
 .banner-home {
@@ -210,7 +218,7 @@
 }
 
 .button {
-  background-color: #0fa93a;
+  background-color: #0dd60d;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -224,7 +232,7 @@
   transition: 0.3s;
 }
 .button:hover {
-  background-color: #0d7c2c;
+  background-color: #13b413;
   transition: 0.3s;
 }
 
@@ -291,12 +299,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 32rem;
-  width: 90rem;
+  height: 20rem;
+  width: 75rem;
 }
 
 .box {
-  width: 22rem;
+  width: 20rem;
   text-align: left;
   height: 15rem;
   margin: 0rem 2rem 0rem 2rem;
@@ -320,4 +328,38 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: gray;
+}
+
+.work-container {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.work-section {
+  margin-top: 1rem;
+  font-weight: 400;
+  width: 75rem;
+  height: 20rem;
+  text-align: center;
+}
+.work-section button {
+  margin-top: 1rem;
+  background-color: #f8f8f8;
+  color: #0dd60d;
+  border: 3px solid #0dd60d;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  font-family: kanit;
+  transition: 0.3s;
+}
+.work-section button:hover {
+  background-color: #0dd60d;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.work-section span {
+  color: #0dd60d;
+  font-weight: 500;
 }/*# sourceMappingURL=home.css.map */
