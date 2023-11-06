@@ -114,21 +114,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000; /* Change this to your desired background color */
-  color: white; /* Change this to your desired text color */
+  left: 0;
+  background-color: #ffffff; /* Change this to your desired background color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   padding: 10px 20px;
-  height: 5vw;
+  height: 6rem;
   z-index: 9;
-  top: 1.5vw;
+  top: 0;
   position: sticky;
   font-family: kanit;
 }
 
 /* Style the logo */
 .logo img {
+  margin-top: 0;
   max-width: 100%;
-  height: 4vw;
-  width: 11vw;
+  height: 5rem;
+  width: 15rem;
 }
 
 /* Style the buttons container */
@@ -139,39 +141,38 @@
 
 /* Style the navigation buttons */
 .nav-button {
-  background-color: #000000; /* Change this to your desired button color */
-  color: white; /* Change this to your desired text color */
+  background-color: #ffffff; /* Change this to your desired button color */
+  color: rgb(0, 0, 0); /* Change this to your desired text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
 
 /* Position the buttons on the right side */
 .buttons {
-  margin-left: auto;
+  margin-right: auto;
 }
 
-.nav-top {
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 1.5vw;
-  top: 0;
-  z-index: 10;
-  position: sticky;
-  float: right;
-  color: white;
-}
-.nav-top .review {
+.testi {
+  border: 3px solid #0dd60d;
+  background-color: #ffffff;
+  color: #0dd60d;
+  transition: 0.3s;
   position: absolute;
-  top: 0.5vw;
-  right: 3vw;
-  color: white;
-  font-family: nav;
-  font-weight: 100;
+  right: 1.5rem;
+  /* Position the element to the right */
+  top: 1.5rem;
+  /* Adjust vertical positioning if needed */
+}
+.testi:hover {
+  background-color: #0dd60d;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .material-symbols-outlined {
@@ -179,6 +180,14 @@
   position: absolute;
   right: 0.5vw;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.review {
+  font-family: navbold;
+  font-weight: 500;
+  position: fixed;
+  right: 1rem;
+  z-index: 20;
 }
 
 .ab {
@@ -190,20 +199,26 @@
 .txt {
   font-family: kanit;
   border-radius: 0.5rem;
-  color: black;
+  width: 30rem;
 }
 
-.b1 {
+.form {
+  position: absolute;
+  margin-left: 15vw;
+  text-align: left;
+  width: 40vw;
+}
+.form button {
   margin-top: 2vw;
   font-family: kanit;
   width: 10vw;
   height: 3vw;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   margin-bottom: 5vw;
   transition: 0.1s;
 }
-.b1:hover {
-  background-color: black;
+.form button:hover {
+  background-color: #004aad;
   color: rgb(232, 232, 232);
   transition: 0.1s;
   border: #004aad;
@@ -212,18 +227,9 @@
 .txt_ {
   font-size: 1.2rem;
   font-family: kanit;
-  color: black;
 }
 
-.txt1 {
-  height: 10vw;
-  width: 25vw;
-  border-radius: 0.5vw;
-  resize: none;
-  font-family: kanit;
-}
-
-.wdth {
+.wdth1 {
   margin-left: 25%;
   width: 50%;
 }
@@ -253,7 +259,7 @@
   height: 12vw;
   width: 100%;
   background-color: rgb(243, 243, 243);
-  margin-bottom: 1vw;
+  margin-bottom: 5vw;
 }
 .why-apply p {
   font-size: 2vw;

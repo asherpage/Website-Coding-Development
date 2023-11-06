@@ -147,7 +147,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
@@ -158,9 +158,9 @@
 }
 
 .testi {
-  border: 3px solid #13b413;
+  border: 3px solid #0dd60d;
   background-color: #ffffff;
-  color: #13b413;
+  color: #0dd60d;
   transition: 0.3s;
   position: absolute;
   right: 1.5rem;
@@ -339,7 +339,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
@@ -350,9 +350,9 @@
 }
 
 .testi {
-  border: 3px solid #13b413;
+  border: 3px solid #0dd60d;
   background-color: #ffffff;
-  color: #13b413;
+  color: #0dd60d;
   transition: 0.3s;
   position: absolute;
   right: 1.5rem;
@@ -380,6 +380,12 @@
   position: fixed;
   right: 1rem;
   z-index: 20;
+}
+
+h1 {
+  font-family: title;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .banner-home {
@@ -523,7 +529,7 @@
 }
 
 .work-container {
-  background-color: #f8f8f8;
+  background-color: #f3f3f3;
   display: flex;
   justify-content: center;
 }
@@ -537,7 +543,7 @@
 }
 .work-section button {
   margin-top: 1rem;
-  background-color: #f8f8f8;
+  background-color: #f3f3f3;
   color: #0dd60d;
   border: 3px solid #0dd60d;
   border-radius: 0.5rem;
@@ -554,6 +560,73 @@
 .work-section span {
   color: #0dd60d;
   font-weight: 500;
+}
+
+.center {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  grid-gap: 1rem;
+  overflow: hidden;
+  width: 62.6rem;
+  overflow: hidden;
+}
+.wrapper > .inner {
+  display: flex;
+  grid-gap: 1rem;
+  transition: all 1s ease-in-out;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+.card > .img {
+  display: block;
+  width: 17.5em;
+}
+.card > .content {
+  border-radius: 0.5rem;
+  width: 20rem;
+  border: 1px solid rgb(99, 99, 99);
+  height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+.card > .content > h1 {
+  margin: 0.35em 0;
+  color: rgb(36, 36, 36);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.card > .content > h3 {
+  margin: 0.35em 0;
+  color: rgb(21, 21, 21);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.map {
+  margin-top: 1em;
+}
+.map > button {
+  all: unset;
+  background: #545454;
+  cursor: pointer;
+  margin: 0 0.125em;
+  position: relative;
+  user-select: none;
+  border-radius: 100%;
+  height: 0.7rem;
+  width: 0.7rem;
 }
 
 * {
@@ -705,7 +778,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
@@ -716,9 +789,9 @@
 }
 
 .testi {
-  border: 3px solid #13b413;
+  border: 3px solid #0dd60d;
   background-color: #ffffff;
-  color: #13b413;
+  color: #0dd60d;
   transition: 0.3s;
   position: absolute;
   right: 1.5rem;
@@ -935,7 +1008,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
@@ -946,9 +1019,9 @@
 }
 
 .testi {
-  border: 3px solid #13b413;
+  border: 3px solid #0dd60d;
   background-color: #ffffff;
-  color: #13b413;
+  color: #0dd60d;
   transition: 0.3s;
   position: absolute;
   right: 1.5rem;
@@ -1127,7 +1200,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: kanit;
 }
@@ -1138,9 +1211,9 @@
 }
 
 .testi {
-  border: 3px solid #13b413;
+  border: 3px solid #0dd60d;
   background-color: #ffffff;
-  color: #13b413;
+  color: #0dd60d;
   transition: 0.3s;
   position: absolute;
   right: 1.5rem;
