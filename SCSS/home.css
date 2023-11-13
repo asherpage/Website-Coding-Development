@@ -8,6 +8,10 @@
   src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
+  font-family: tommy;
+  src: url(../fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
   font-family: navbold;
   src: url(../fonts/OpenSans-Bold.ttf);
 }
@@ -62,6 +66,10 @@
 @font-face {
   font-family: title;
   src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: tommy;
+  src: url(../fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
 }
 @font-face {
   font-family: navbold;
@@ -122,6 +130,7 @@ body {
   background-color: #ffffff;
   height: 4rem;
   position: sticky;
+  z-index: 20;
   box-shadow: 0px 2px 10px rgb(88, 88, 88);
 }
 
@@ -174,7 +183,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 25vw;
+  height: 25rem;
   display: flex;
   justify-content: center; /* Center horizontally */
 }
@@ -183,7 +192,7 @@ h1 {
   position: absolute;
   margin-top: 12rem;
   width: 53rem;
-  height: 4vw;
+  height: 4vh;
   background-color: white;
   box-shadow: 0 0 10px black;
   border-radius: 0.5rem;
@@ -203,7 +212,7 @@ h1 {
   cursor: pointer;
   font-size: 16px;
   width: 10rem;
-  height: 3rem;
+  height: 3vh;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   font-family: kanit;
@@ -223,7 +232,7 @@ h1 {
   cursor: pointer;
   font-size: 16px;
   width: 10rem;
-  height: 3rem;
+  height: 3vh;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   font-family: kanit;
@@ -239,8 +248,8 @@ h1 {
   text-align: center;
 }
 .home-about h1 {
-  font-family: title;
-  font-weight: 500;
+  font-family: tommy;
+  font-size: 3em;
   margin-bottom: 2rem;
 }
 
@@ -351,6 +360,10 @@ h1 {
   height: 100%;
   justify-content: center;
 }
+.center h1 {
+  font-family: tommy;
+  font-size: 3em;
+}
 
 .wrapper {
   display: flex;
@@ -407,4 +420,37 @@ h1 {
   border-radius: 100%;
   height: 0.7rem;
   width: 0.7rem;
+}
+
+.trusted {
+  width: 100%;
+  text-align: center;
+}
+.trusted h1 {
+  font-family: tommy;
+  font-size: 3em;
+}
+
+.comp-wrap {
+  width: 100%;
+}
+.comp-wrap img {
+  width: 80%;
+  margin-bottom: 10rem;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-flex .hr-wrap {
+  width: 80%;
+}
+.center-flex .hr-wrap .footerhr {
+  border: 2px solid rgb(54, 54, 54);
+}
+
+footer {
+  height: 10rem;
 }/*# sourceMappingURL=home.css.map */
