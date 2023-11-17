@@ -12,8 +12,9 @@ body {
     background-color: #ffffff;
     height: 4rem;
     position: sticky;
+    top: 0;
     z-index: 20;
-    box-shadow: 0px 2px 10px rgb(88, 88, 88);
+    box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
 .logo img {
@@ -35,13 +36,15 @@ body {
 }
 
 .nav-links a {
-    font-family: kanit;
+    font-family: tommy;
     text-decoration: none;
     color: #000000;
     font-weight: bold;
     font-size: 1rem;
 }
-
+#active{
+    color: #04c211;
+    }
 .nav-links a:hover {
     color: #04c211;
     /* Change color on hover */

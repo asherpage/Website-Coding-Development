@@ -1,5 +1,6 @@
 @import "utils.scss";
 @import "nav.scss";
+@import "footer.scss";
         h1 {
           font-family: title;
           font-weight: 500;
@@ -19,7 +20,7 @@ display: flex;
     position: absolute;
     margin-top: 12rem;
     width: 53rem;
-    height: 4vh;
+    height: 6vh;
     background-color: white;
     box-shadow: 0 0 10px black;
     border-radius: 0.5rem;
@@ -38,9 +39,9 @@ display: flex;
     cursor: pointer;
     font-size: 16px;
     width: 10rem;
-    height: 3vh;
-    margin-top: .5rem;
-    margin-left: .5rem;
+    height: 5vh;
+    margin-top: .5vh;
+    margin-left: .65rem;
     font-family: kanit;
     transition: 0.3s;
     &:hover{
@@ -57,9 +58,9 @@ display: flex;
     cursor: pointer;
     font-size: 16px;
     width: 10rem;
-    height: 3vh;
-    margin-top: .5rem;
-    margin-left: .5rem;
+    height: 5vh;
+    margin-top: .5vh;
+    margin-left: .45rem;
     font-family: kanit;
 }
 #date{
@@ -232,7 +233,7 @@ display: flex;
     >h3 {
       margin: 0.35em 0;
       color: rgb(21, 21, 21);
-      font-size: .9rem;
+      font-size: .8rem;
       font-weight: 300;
     }
     // >h4{
@@ -286,19 +287,4 @@ display: flex;
     width: 80%;
     margin-bottom: 10rem;
   }
-}
-.center-flex{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-.hr-wrap{
-width: 80%;
-
-.footerhr{
-  border: 2px solid rgb(54, 54, 54);
-}
-}
-}
-footer{
-  height: 10rem;
 }
