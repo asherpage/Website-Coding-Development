@@ -253,6 +253,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;

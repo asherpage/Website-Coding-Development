@@ -42,13 +42,14 @@ display: flex;
     height: 5vh;
     margin-top: .5vh;
     margin-left: .65rem;
-    font-family: kanit;
+    font-family: tommy;
     transition: 0.3s;
     &:hover{
         background-color: #13b413;
         transition: 0.3s;
     }
 }
+
 .inputy {
     background-color: #e4e4e4;
     text-align: center;
@@ -61,7 +62,8 @@ display: flex;
     height: 5vh;
     margin-top: .5vh;
     margin-left: .45rem;
-    font-family: kanit;
+    font-weight: 500;
+    font-family: tommy;
 }
 #date{
     color: rgb(110, 110, 110);
@@ -153,8 +155,9 @@ display: flex;
 .work-section{
   margin-top: 1rem;
   font-weight: 400;
+  padding: 2rem 0 2rem 0;
   width: 75rem;
-  height: 20rem;
+  height: auto;
   text-align: center;
   button{
     margin-top: 1rem;
@@ -172,9 +175,17 @@ display: flex;
       transition: 0.3s;
     }
   }
+  h1{
+    padding: 0;
+    margin-top: 0;
+  }
+  p{
+    font-family: tommy;
+    font-size: 1rem;
+  }
   span{
     color: #0dd60d;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -222,12 +233,18 @@ display: flex;
     height: 10rem;
     padding: 1rem;
     text-align: center;
+    i{
+      color: #0dd60d;
+      text-shadow: 1px 1px 1px rgb(0, 0, 0);
+      
+    }
 
     >h1 {
       margin: 0.35em 0;
       color: rgb(36, 36, 36);
       font-size: 1.25rem;
       line-height: 1;
+      font-weight: 900;
     }
 
     >h3 {
@@ -287,4 +304,23 @@ display: flex;
     width: 80%;
     margin-bottom: 10rem;
   }
+}
+.both-banners{
+  width: 100%;
+  .ban-container{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    .text-container{
+      width: 30rem;
+      margin-right: 5rem;
+    }
+    img{
+      height: 20rem;
+      width: 30rem;
+      object-fit: cover;
+    }
+  }
+
 }

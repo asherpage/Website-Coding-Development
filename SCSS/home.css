@@ -253,6 +253,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;
@@ -360,7 +362,7 @@ h1 {
   height: 5vh;
   margin-top: 0.5vh;
   margin-left: 0.65rem;
-  font-family: kanit;
+  font-family: tommy;
   transition: 0.3s;
 }
 .button:hover {
@@ -380,7 +382,8 @@ h1 {
   height: 5vh;
   margin-top: 0.5vh;
   margin-left: 0.45rem;
-  font-family: kanit;
+  font-weight: 500;
+  font-family: tommy;
 }
 
 #date {
@@ -471,8 +474,9 @@ h1 {
 .work-section {
   margin-top: 1rem;
   font-weight: 400;
+  padding: 2rem 0 2rem 0;
   width: 75rem;
-  height: 20rem;
+  height: auto;
   text-align: center;
 }
 .work-section button {
@@ -491,9 +495,17 @@ h1 {
   font-weight: 500;
   transition: 0.3s;
 }
+.work-section h1 {
+  padding: 0;
+  margin-top: 0;
+}
+.work-section p {
+  font-family: tommy;
+  font-size: 1rem;
+}
 .work-section span {
   color: #0dd60d;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .center {
@@ -539,11 +551,16 @@ h1 {
   padding: 1rem;
   text-align: center;
 }
+.card > .content i {
+  color: #0dd60d;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
 .card > .content > h1 {
   margin: 0.35em 0;
   color: rgb(36, 36, 36);
   font-size: 1.25rem;
   line-height: 1;
+  font-weight: 900;
 }
 .card > .content > h3 {
   margin: 0.35em 0;
@@ -582,4 +599,23 @@ h1 {
 .comp-wrap img {
   width: 80%;
   margin-bottom: 10rem;
+}
+
+.both-banners {
+  width: 100%;
+}
+.both-banners .ban-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.both-banners .ban-container .text-container {
+  width: 30rem;
+  margin-right: 5rem;
+}
+.both-banners .ban-container img {
+  height: 20rem;
+  width: 30rem;
+  object-fit: cover;
 }/*# sourceMappingURL=home.css.map */

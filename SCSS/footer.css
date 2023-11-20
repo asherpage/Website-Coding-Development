@@ -67,8 +67,10 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
-footer po img {
+footer img {
   margin-top: 2rem;
   margin-left: 8rem;
   width: 11rem;

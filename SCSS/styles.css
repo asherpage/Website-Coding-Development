@@ -439,6 +439,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;
@@ -546,7 +548,7 @@ h1 {
   height: 5vh;
   margin-top: 0.5vh;
   margin-left: 0.65rem;
-  font-family: kanit;
+  font-family: tommy;
   transition: 0.3s;
 }
 .button:hover {
@@ -566,7 +568,8 @@ h1 {
   height: 5vh;
   margin-top: 0.5vh;
   margin-left: 0.45rem;
-  font-family: kanit;
+  font-weight: 500;
+  font-family: tommy;
 }
 
 #date {
@@ -730,6 +733,7 @@ h1 {
   color: rgb(36, 36, 36);
   font-size: 1.25rem;
   line-height: 1;
+  color: #0dd60d;
 }
 .card > .content > h3 {
   margin: 0.35em 0;
@@ -768,6 +772,49 @@ h1 {
 .comp-wrap img {
   width: 80%;
   margin-bottom: 10rem;
+}
+
+.ban-container {
+  display: flex;
+  align-items: center;
+}
+.ban-container .text-container {
+  flex: 1;
+  padding: 20px;
+}
+.ban-container .image-container {
+  flex: 1;
+}
+.ban-container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  background-color: #545454;
+}
+
+.ban2-container {
+  display: flex;
+  align-items: center;
+}
+.ban2-container .text-container {
+  flex: 1;
+}
+.ban2-container .image-container {
+  flex: 1;
+  padding: 20px;
+}
+.ban2-container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  background-color: #545454;
+}
+
+.both-banners {
+  width: 70%;
+  margin-left: 15%;
 }
 
 * {
@@ -1025,6 +1072,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;
@@ -1373,6 +1422,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;
@@ -1691,6 +1742,8 @@ footer {
   height: 23rem;
   color: #fff;
   font-family: tommy;
+  bottom: 0;
+  position: relative;
 }
 footer img {
   margin-top: 2rem;
