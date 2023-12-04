@@ -445,7 +445,7 @@ footer {
 footer img {
   margin-top: 2rem;
   margin-left: 8rem;
-  width: 11rem;
+  width: 13rem;
   height: 3rem;
 }
 
@@ -544,6 +544,7 @@ h1 {
   border-radius: 0.5rem;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 600;
   width: 10rem;
   height: 5vh;
   margin-top: 0.5vh;
@@ -660,8 +661,9 @@ h1 {
 .work-section {
   margin-top: 1rem;
   font-weight: 400;
+  padding: 2rem 0 2rem 0;
   width: 75rem;
-  height: 20rem;
+  height: auto;
   text-align: center;
 }
 .work-section button {
@@ -680,9 +682,17 @@ h1 {
   font-weight: 500;
   transition: 0.3s;
 }
+.work-section h1 {
+  padding: 0;
+  margin-top: 0;
+}
+.work-section p {
+  font-family: tommy;
+  font-size: 1rem;
+}
 .work-section span {
   color: #0dd60d;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .center {
@@ -703,8 +713,7 @@ h1 {
   display: flex;
   grid-gap: 1rem;
   overflow: hidden;
-  width: 62.6rem;
-  overflow: hidden;
+  width: 63rem;
 }
 .wrapper > .inner {
   display: flex;
@@ -728,12 +737,16 @@ h1 {
   padding: 1rem;
   text-align: center;
 }
+.card > .content i {
+  color: #0dd60d;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
 .card > .content > h1 {
   margin: 0.35em 0;
   color: rgb(36, 36, 36);
   font-size: 1.25rem;
   line-height: 1;
-  color: #0dd60d;
+  font-weight: 900;
 }
 .card > .content > h3 {
   margin: 0.35em 0;
@@ -774,47 +787,110 @@ h1 {
   margin-bottom: 10rem;
 }
 
-.ban-container {
-  display: flex;
-  align-items: center;
-}
-.ban-container .text-container {
-  flex: 1;
-  padding: 20px;
-}
-.ban-container .image-container {
-  flex: 1;
-}
-.ban-container img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-  background-color: #545454;
-}
-
-.ban2-container {
-  display: flex;
-  align-items: center;
-}
-.ban2-container .text-container {
-  flex: 1;
-}
-.ban2-container .image-container {
-  flex: 1;
-  padding: 20px;
-}
-.ban2-container img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-  background-color: #545454;
-}
-
 .both-banners {
-  width: 70%;
-  margin-left: 15%;
+  width: 100%;
+  font-family: tommy;
+}
+.both-banners .ban-container {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.both-banners .ban-container .text-container-right {
+  width: 36rem;
+  margin-left: 5rem;
+  text-align: left;
+}
+.both-banners .ban-container .text-container-right h1 {
+  font-weight: 600;
+  margin-left: 4.5rem;
+}
+.both-banners .ban-container .text-container-right p {
+  width: 30rem;
+  margin-left: 5rem;
+}
+.both-banners .ban-container .text-container-right span {
+  color: #0dd60d;
+  font-weight: 600;
+}
+.both-banners .ban-container .text-container {
+  width: 35rem;
+  margin-right: 5rem;
+  text-align: left;
+}
+.both-banners .ban-container .text-container h1 {
+  font-weight: 600;
+}
+.both-banners .ban-container .text-container p {
+  width: 30rem;
+}
+.both-banners .ban-container .text-container span {
+  color: #0dd60d;
+  font-weight: 600;
+}
+.both-banners img {
+  height: 20rem;
+  width: 30rem;
+  margin: 1rem 0rem 1rem 1rem;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  box-shadow: 13px 13px 0px rgb(83, 162, 81);
+}
+.both-banners .other-img {
+  margin: 1rem 1rem 1rem 0rem;
+  box-shadow: -13px 13px 0px rgb(83, 162, 81);
+}
+
+.test-hr {
+  width: 90%;
+  margin-left: 5%;
+  border-top: 2px solid #939393;
+  height: 1rem;
+  margin-top: 2rem;
+}
+
+.bar {
+  margin-top: 5rem;
+  margin-left: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  background-color: #ffffff;
+  padding: 0 0.3rem;
+  color: #fff;
+  box-shadow: 0 0 5px black;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group input {
+  flex-grow: inherit;
+  background-color: #d5d5d5;
+  height: 2.5rem;
+  width: 8rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.banner button {
+  background-color: #d5d5d5;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: #2ecc36;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 * {
@@ -1078,7 +1154,7 @@ footer {
 footer img {
   margin-top: 2rem;
   margin-left: 8rem;
-  width: 11rem;
+  width: 13rem;
   height: 3rem;
 }
 
@@ -1428,7 +1504,7 @@ footer {
 footer img {
   margin-top: 2rem;
   margin-left: 8rem;
-  width: 11rem;
+  width: 13rem;
   height: 3rem;
 }
 
@@ -1748,7 +1824,7 @@ footer {
 footer img {
   margin-top: 2rem;
   margin-left: 8rem;
-  width: 11rem;
+  width: 13rem;
   height: 3rem;
 }
 
