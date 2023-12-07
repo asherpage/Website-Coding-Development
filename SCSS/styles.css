@@ -131,57 +131,71 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  height: 4rem;
+.nav {
   position: sticky;
   top: 0;
-  z-index: 20;
-  box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
-.logo img {
-  height: 3rem;
-  margin-left: 1rem;
-  /* Adjust the height of the logo as needed */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  margin-bottom: 0;
+  height: 4rem;
+  background-color: #ffffff;
+  overflow-y: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  list-style: none;
   display: flex;
-  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
-}
-
-.nav-links a {
-  font-family: tommy;
+nav ul a {
+  font-weight: 700;
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #000000;
-  font-weight: bold;
+  font-family: tommy;
   font-size: 1rem;
+  color: black;
+  text-align: center;
+  transition: background 0.25s, box-shadow 0.15s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 #active {
-  color: #04c211;
+  color: #1cb629;
 }
 
-.nav-links a:hover {
-  color: #04c211;
-  /* Change color on hover */
+#active:hover {
+  color: white;
 }
 
-.testi {
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: tommy;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background-color: #1cb629;
+}
+
+.logo img {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 16rem;
+  height: 3rem;
+  top: 0.5rem;
+  left: 1rem;
 }
 
 * {
@@ -317,57 +331,71 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  height: 4rem;
+.nav {
   position: sticky;
   top: 0;
-  z-index: 20;
-  box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
-.logo img {
-  height: 3rem;
-  margin-left: 1rem;
-  /* Adjust the height of the logo as needed */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  margin-bottom: 0;
+  height: 4rem;
+  background-color: #ffffff;
+  overflow-y: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  list-style: none;
   display: flex;
-  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
-}
-
-.nav-links a {
-  font-family: tommy;
+nav ul a {
+  font-weight: 700;
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #000000;
-  font-weight: bold;
+  font-family: tommy;
   font-size: 1rem;
+  color: black;
+  text-align: center;
+  transition: background 0.25s, box-shadow 0.15s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 #active {
-  color: #04c211;
+  color: #1cb629;
 }
 
-.nav-links a:hover {
-  color: #04c211;
-  /* Change color on hover */
+#active:hover {
+  color: white;
 }
 
-.testi {
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: tommy;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background-color: #1cb629;
+}
+
+.logo img {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 16rem;
+  height: 3rem;
+  top: 0.5rem;
+  left: 1rem;
 }
 
 * {
@@ -515,62 +543,10 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   height: 25rem;
   display: flex;
-  justify-content: center; /* Center horizontally */
-}
-
-.overlay {
-  position: absolute;
-  margin-top: 12rem;
-  width: 53rem;
-  height: 6vh;
-  background-color: white;
-  box-shadow: 0 0 10px black;
-  border-radius: 0.5rem;
-  left: 50%; /* Move it to the middle of the .banner-home */
-  transform: translateX(-50%); /* Adjust horizontally to center */
-}
-
-.button-container {
-  display: flex; /* Make it a flex container */
-}
-
-.button {
-  background-color: #0dd60d;
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  width: 10rem;
-  height: 5vh;
-  margin-top: 0.5vh;
-  margin-left: 0.65rem;
-  font-family: tommy;
-  transition: 0.3s;
-}
-.button:hover {
-  background-color: #13b413;
-  transition: 0.3s;
-}
-
-.inputy {
-  background-color: #e4e4e4;
-  text-align: center;
-  color: black;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 16px;
-  width: 10rem;
-  height: 5vh;
-  margin-top: 0.5vh;
-  margin-left: 0.45rem;
-  font-weight: 500;
-  font-family: tommy;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #date {
@@ -851,46 +827,10 @@ h1 {
   margin-top: 2rem;
 }
 
-.bar {
-  margin-top: 5rem;
-  margin-left: 30rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  border-radius: 0.5rem;
-  width: fit-content;
+.quote-form {
   background-color: #ffffff;
-  padding: 0 0.3rem;
-  color: #fff;
-  box-shadow: 0 0 5px black;
-}
-
-.input-group {
-  display: flex;
-}
-
-.input-group input {
-  flex-grow: inherit;
-  background-color: #d5d5d5;
-  height: 2.5rem;
-  width: 8rem;
-  margin-right: 0.5rem;
-  border: none;
-  border-radius: 0.5rem;
-}
-
-.banner button {
-  background-color: #d5d5d5;
-  height: 2.5rem;
-  width: 8rem;
-  background-color: #2ecc36;
-  color: #ffffff;
-  border: none;
-  padding: 5px;
-  border-radius: 0.5rem;
-  cursor: pointer;
+  width: 20rem;
+  height: 20rem;
 }
 
 * {
@@ -1026,57 +966,71 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  height: 4rem;
+.nav {
   position: sticky;
   top: 0;
-  z-index: 20;
-  box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
-.logo img {
-  height: 3rem;
-  margin-left: 1rem;
-  /* Adjust the height of the logo as needed */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  margin-bottom: 0;
+  height: 4rem;
+  background-color: #ffffff;
+  overflow-y: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  list-style: none;
   display: flex;
-  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
-}
-
-.nav-links a {
-  font-family: tommy;
+nav ul a {
+  font-weight: 700;
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #000000;
-  font-weight: bold;
+  font-family: tommy;
   font-size: 1rem;
+  color: black;
+  text-align: center;
+  transition: background 0.25s, box-shadow 0.15s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 #active {
-  color: #04c211;
+  color: #1cb629;
 }
 
-.nav-links a:hover {
-  color: #04c211;
-  /* Change color on hover */
+#active:hover {
+  color: white;
 }
 
-.testi {
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: tommy;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background-color: #1cb629;
+}
+
+.logo img {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 16rem;
+  height: 3rem;
+  top: 0.5rem;
+  left: 1rem;
 }
 
 * {
@@ -1376,57 +1330,71 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  height: 4rem;
+.nav {
   position: sticky;
   top: 0;
-  z-index: 20;
-  box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
-.logo img {
-  height: 3rem;
-  margin-left: 1rem;
-  /* Adjust the height of the logo as needed */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  margin-bottom: 0;
+  height: 4rem;
+  background-color: #ffffff;
+  overflow-y: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  list-style: none;
   display: flex;
-  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
-}
-
-.nav-links a {
-  font-family: tommy;
+nav ul a {
+  font-weight: 700;
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #000000;
-  font-weight: bold;
+  font-family: tommy;
   font-size: 1rem;
+  color: black;
+  text-align: center;
+  transition: background 0.25s, box-shadow 0.15s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 #active {
-  color: #04c211;
+  color: #1cb629;
 }
 
-.nav-links a:hover {
-  color: #04c211;
-  /* Change color on hover */
+#active:hover {
+  color: white;
 }
 
-.testi {
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: tommy;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background-color: #1cb629;
+}
+
+.logo img {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 16rem;
+  height: 3rem;
+  top: 0.5rem;
+  left: 1rem;
 }
 
 * {
@@ -1696,57 +1664,71 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  height: 4rem;
+.nav {
   position: sticky;
   top: 0;
-  z-index: 20;
-  box-shadow: 0px 0px 2px rgb(88, 88, 88);
 }
 
-.logo img {
-  height: 3rem;
-  margin-left: 1rem;
-  /* Adjust the height of the logo as needed */
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  margin-bottom: 0;
+  height: 4rem;
+  background-color: #ffffff;
+  overflow-y: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  list-style: none;
   display: flex;
-  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
-}
-
-.nav-links a {
-  font-family: tommy;
+nav ul a {
+  font-weight: 700;
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #000000;
-  font-weight: bold;
+  font-family: tommy;
   font-size: 1rem;
+  color: black;
+  text-align: center;
+  transition: background 0.25s, box-shadow 0.15s;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 #active {
-  color: #04c211;
+  color: #1cb629;
 }
 
-.nav-links a:hover {
-  color: #04c211;
-  /* Change color on hover */
+#active:hover {
+  color: white;
 }
 
-.testi {
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: tommy;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background-color: #1cb629;
+}
+
+.logo img {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 16rem;
+  height: 3rem;
+  top: 0.5rem;
+  left: 1rem;
 }
 
 * {
