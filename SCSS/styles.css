@@ -543,7 +543,7 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 25rem;
+  height: 27.5rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -828,9 +828,73 @@ h1 {
 }
 
 .quote-form {
+  box-shadow: 0 0 10px black;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 27.5rem;
+  border-radius: 0.5rem;
+}
+.quote-form .titles {
+  width: 25rem;
+  text-align: left;
+  margin: 0;
+}
+.quote-form h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: left;
+  margin: 1rem 0 0 0;
+}
+.quote-form h2 {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-family: tommy;
+  margin: 0 0 0 0;
+}
+.quote-form button {
+  background-color: #159715;
+  border: none;
+  width: 25rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: tommy;
+}
+.quote-form span {
+  color: #0dd60d;
+}
+.quote-form input {
   background-color: #ffffff;
-  width: 20rem;
-  height: 20rem;
+  margin-bottom: 0.2rem;
+  border: none;
+  box-shadow: 0 0 5px rgba(210, 210, 210, 0.449);
+  width: 25rem;
+  padding: 0 1rem 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: tommy;
+  height: 4rem;
+}
+.quote-form input:focus {
+  border: 1px solid #20a920;
+}
+.quote-form .transports {
+  margin: 1rem 0 1rem 0;
+}
+
+.reliable {
+  position: absolute;
+  z-index: 15;
+  width: 10rem;
+  height: 5rem;
+  background-color: #ff1818;
+  justify-content: flex-start;
 }
 
 * {
