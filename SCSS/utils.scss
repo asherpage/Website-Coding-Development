@@ -64,3 +64,17 @@ $tertiary: #004aad;
     --grey-1200: #000000;
 
 }
+::-webkit-scrollbar {
+    width: 5px;
+    background: $primary;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+}

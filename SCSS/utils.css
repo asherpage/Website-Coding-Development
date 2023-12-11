@@ -60,4 +60,19 @@
   --grey-1000: #333538;
   --grey-1100: #141516;
   --grey-1200: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(232, 232, 232);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
 }/*# sourceMappingURL=utils.css.map */

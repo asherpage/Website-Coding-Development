@@ -135,20 +135,7 @@ justify-content: flex-end;
       width: 5rem;
     }
   }
-  ::-webkit-scrollbar {
-    width: 5px;
-    background: $primary;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: gray;
-}
+  
 .work-container{
   background-color: #f3f3f3;
   display: flex;
