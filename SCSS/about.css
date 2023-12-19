@@ -62,6 +62,21 @@
   --grey-1200: #000000;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(232, 232, 232);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -81,7 +96,7 @@ nav ul {
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px rgb(42, 42, 42);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -197,6 +212,21 @@ nav ul a:hover {
   --grey-1000: #333538;
   --grey-1100: #141516;
   --grey-1200: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(232, 232, 232);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
 }
 
 footer {
