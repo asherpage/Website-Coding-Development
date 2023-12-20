@@ -1,6 +1,24 @@
+$(function(){
+  $(".suby").on('click', function(){
+   $(".background-pop").css({"display": "flex"},2000);
+   $("input").val("")
+   $("textarea").val("")
+  })
+ })
+ $(function(){
+  $(".home").on('click', function(){
+  //  $(".background-pop").css({"display": "none"},2000);
+   window.location.href="index.html"
+  })
+ })
+  $(function(){
+  $("#trust").on('click', function(){
+   $(".background-pop").css({"display": "none"},2000);
+  })
+ })
+
 const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
-
 buttonsWrapper.addEventListener("click", e => {
   if (e.target.nodeName === "BUTTON") {
     Array.from(buttonsWrapper.children).forEach(item =>
