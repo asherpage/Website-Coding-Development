@@ -5,31 +5,31 @@
 
 @font-face {
   font-family: title;
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url(../../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: tommy;
-  src: url(../fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+  src: url(../../fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
 }
 @font-face {
   font-family: foot;
-  src: url(../fonts/Agbalumo-Regular.ttf);
+  src: url(../../fonts/Agbalumo-Regular.ttf);
 }
 @font-face {
   font-family: navbold;
-  src: url(../fonts/OpenSans-Bold.ttf);
+  src: url(../../fonts/OpenSans-Bold.ttf);
 }
 @font-face {
   font-family: nav;
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url(../../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: navl;
-  src: url(../fonts/OpenSans-Light.ttf);
+  src: url(../../fonts/OpenSans-Light.ttf);
 }
 @font-face {
   font-family: kanit;
-  src: url(../fonts/Kanit-MediumItalic.ttf);
+  src: url(../../fonts/Kanit-MediumItalic.ttf);
 }
 :root {
   /* COLORS  */
