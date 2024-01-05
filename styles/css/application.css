@@ -175,7 +175,6 @@ nav ul {
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 5px rgb(42, 42, 42);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -381,87 +380,62 @@ footer img {
 body {
   background-image: url(../../images/Untitled\ design.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  font-family: tommy;
 }
 
 .quote-form {
   display: flex;
-  align-items: center;
   z-index: 0;
   height: fit-content;
   flex-direction: column;
   background-color: #ffffff;
-  width: 30rem;
-  border-radius: 0.5rem;
-}
-.quote-form .titles {
-  width: 27.5rem;
-  text-align: left;
-  margin: 0;
+  box-shadow: 2px 2px 10px rgba(30, 30, 30, 0.544);
+  width: 40rem;
+  padding: 1rem 4rem;
 }
 .quote-form h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-align: left;
-  margin: 1rem 0 0 0;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .quote-form h2 {
   font-size: 1rem;
-  text-align: left;
-  font-weight: 600;
-  font-family: tommy;
-  margin: 0 0 0 0;
-}
-.quote-form h2 span {
-  color: #0dd60d;
-  font-weight: 600;
-}
-.quote-form button {
-  background-color: #18ba18;
-  border: none;
-  width: 27.5rem;
-  height: 3rem;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  font-weight: 700;
-  font-family: tommy;
-}
-.quote-form button :hover {
-  background-color: #159715;
-}
-.quote-form span {
-  color: #0dd60d;
-}
-.quote-form textarea {
-  background-color: #ebebeb;
-  margin-bottom: 0.2rem;
-  border: none;
-  box-shadow: 0 0 5px rgba(210, 210, 210, 0.449);
-  width: 27.5rem;
-  padding: 0 1rem 0 1rem;
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: tommy;
-  height: 10rem;
-  resize: none;
+  margin-top: 1rem;
 }
 .quote-form input {
-  background-color: #ebebeb;
-  margin-bottom: 0.2rem;
-  border: none;
-  box-shadow: 0 0 5px rgba(210, 210, 210, 0.449);
-  width: 27.5rem;
-  padding: 0 1rem 0 1rem;
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: tommy;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  height: 2.2rem;
+  padding-left: 0.5rem;
+  font-weight: 400;
+}
+.quote-form button {
+  background-color: rgba(13, 214, 13, 0.6431372549);
+  width: 32rem;
   height: 3rem;
+  border: none;
+  margin-bottom: 2rem;
+  transition: 0.2s;
+  border-radius: 0.5rem;
 }
-.quote-form input:focus {
-  border: 1px solid #20a920;
+.quote-form button:hover {
+  background-color: #0dd60d;
+  transition: 0.2s;
 }
-.quote-form .transports {
-  margin: 1rem 0 1rem 0;
+.quote-form p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: #3f3f3f;
+}
+.quote-form textarea {
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  height: 6rem;
+  padding-left: 0.5rem;
+  font-weight: 400;
+  resize: none;
 }
 
 .banner-home {
@@ -489,4 +463,31 @@ img {
   height: fit-content;
   width: 40rem;
   z-index: 0;
+}
+
+.benifits {
+  display: flex;
+  align-items: center;
+  font-family: tommy;
+}
+.benifits h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.benifits h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.benifits p {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.benifits ul {
+  list-style: none;
+}
+
+i {
+  color: #0dd60d;
 }/*# sourceMappingURL=application.css.map */
