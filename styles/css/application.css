@@ -378,7 +378,7 @@ footer img {
 }
 
 body {
-  background-image: url(../../images/Untitled\ design.png);
+  background-image: url(../../images/application\ back.png);
   background-size: cover;
   font-family: tommy;
 }
@@ -410,23 +410,25 @@ body {
   padding-left: 0.5rem;
   font-weight: 400;
 }
+.quote-form select {
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  height: 2.2rem;
+  font-weight: 400;
+}
 .quote-form button {
-  background-color: rgba(13, 214, 13, 0.6431372549);
+  background-color: #0dd60d;
+  opacity: 0.6;
   width: 32rem;
   height: 3rem;
   border: none;
-  margin-bottom: 2rem;
-  transition: 0.2s;
   border-radius: 0.5rem;
-}
-.quote-form button:hover {
-  background-color: #0dd60d;
-  transition: 0.2s;
+  color: #ffffff;
 }
 .quote-form p {
   text-align: center;
   font-size: 0.8rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #3f3f3f;
 }
 .quote-form textarea {
@@ -437,6 +439,13 @@ body {
   font-weight: 400;
   resize: none;
 }
+.quote-form .check {
+  height: 0.5rem;
+  display: inline-block;
+}
+.quote-form label {
+  display: inline-block;
+}
 
 .banner-home {
   background-position: center;
@@ -444,7 +453,7 @@ body {
   background-repeat: no-repeat;
   flex-direction: row;
   height: 100%;
-  margin-top: 5rem;
+  margin-top: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -472,7 +481,7 @@ img {
 }
 .benifits h1 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 .benifits h2 {
   font-size: 1.5rem;
@@ -483,6 +492,7 @@ img {
 .benifits p {
   font-size: 1rem;
   margin-left: 1rem;
+  width: 30rem;
 }
 .benifits ul {
   list-style: none;
@@ -490,4 +500,16 @@ img {
 
 i {
   color: #0dd60d;
+}
+
+.doneText {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 4rem;
+}
+.doneText p {
+  margin: 0.5rem 0 0.5rem 0;
+  color: black;
+  display: none;
 }/*# sourceMappingURL=application.css.map */

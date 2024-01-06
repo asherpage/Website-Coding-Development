@@ -16,7 +16,52 @@ $(function(){
    $(".background-pop").css({"display": "none"},2000);
   })
  })
+$(function(){
+  var emailChanged = false;
+  var nameChanged = false;
+  var numberChanged = false;
+  var dateChanged = false;
+  var posChanged = false;
 
+  function checkChanges() {
+    if (emailChanged && nameChanged && numberChanged && dateChanged && posChanged) {
+      console.log("hi");
+      $(".appButton").animate({"opacity": "1"}, 200);
+      $(".appButton").css({"font-weight": "900"}, 200);
+      $(".appButton").prop("disabled", false);
+        $(function(){
+  $(".appButton").on('click', function(){
+   $(".afterText").css({"display": "block"},2000);
+  })
+ })
+    }
+  }
+
+  $(".email").on('change', function(){
+    emailChanged = true;
+    checkChanges();
+  });
+
+  $(".name").on('change', function(){
+    nameChanged = true;
+    checkChanges();
+  });
+
+  $(".number").on('change', function(){
+    numberChanged = true;
+    checkChanges();
+  });
+
+  $(".date").on('change', function(){
+    dateChanged = true;
+    checkChanges();
+  });
+
+  $(".pos").on('change', function(){
+    posChanged = true;
+    checkChanges();
+  });
+});
 const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
 buttonsWrapper.addEventListener("click", e => {
