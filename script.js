@@ -5,6 +5,10 @@ $(function(){
    $("textarea").val("")
   })
  })
+ 
+$(window).on('load', function() {
+  $(".quote-form").animate({"opacity": "1"},1000);
+})
  $(function(){
   $(".home").on('click', function(){
   //  $(".background-pop").css({"display": "none"},2000);
@@ -62,6 +66,7 @@ $(function(){
     checkChanges();
   });
 });
+
 const buttonsWrapper = document.querySelector(".map");
 const slides = document.querySelector(".inner");
 buttonsWrapper.addEventListener("click", e => {
