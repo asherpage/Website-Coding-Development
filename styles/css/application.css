@@ -513,4 +513,32 @@ i {
   margin: 0.5rem 0 0.5rem 0;
   color: black;
   display: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  .quote-form {
+    padding: 0.2rem 3rem;
+  }
+  .quote-form h2 {
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  .quote-form input {
+    height: 1.8rem;
+  }
+  .benifits h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  .benifits h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 0.2rem;
+  }
+  .benifits p {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    width: 30rem;
+  }
 }/*# sourceMappingURL=application.css.map */
