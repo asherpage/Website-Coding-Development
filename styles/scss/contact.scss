@@ -3,6 +3,7 @@
 @import "footer.scss";
 body{
     background-color: #ffffff;
+    overflow: hidden;
 }
 nav ul{
     box-shadow: none;
@@ -13,185 +14,156 @@ nav ul{
 .nav{
     position: relative;
 }
-.reliable {
-    width: 50rem;
-    height: 5rem;
-    position: absolute;
-
-    h1 {
-        margin-top: 10rem;
-        margin-bottom: 0;
-        margin-left: 5rem;
-        font-family: tommy;
-        font-size: 3rem;
-        color: #000000;
-        // text-shadow: 0px 0px 10px rgb(18, 18, 18);
-        font-weight: 700;
-    }
-
-    h2 {
-        margin-top: 0;
-        margin-left: 5rem;
-        color: #000000;
-        font-size: 1.5rem;
-        font-family: tommy;
-        font-weight: 700;
-        // text-shadow: 0px 0px 5px black;
-    }
-}
-.quote-form {
-    // margin-right: 8rem;
-    display: flex;
-    align-items: center;
-    z-index: 0;
-    height: fit-content;
-    flex-direction: column;
-    background-color: #ffffff;
-    width: 30rem;
-    border-radius: 0.5rem;
-
-    .titles {
-        width: 27.5rem;
-        text-align: left;
-        margin: 0;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-        font-weight: 700;
-        text-align: left;
-        margin: 1rem 0 0 0;
-    }
-
-    h2 {
-        font-size: 1rem;
-        text-align: left;
-        font-weight: 600;
-        font-family: tommy;
-        margin: 0 0 0 0;
-        span {
-                color: #0dd60d;
-                font-weight: 600;
-            }
-    }
-
-    button {
-        background-color: #18ba18;
-        border: none;
-        width: 27.5rem;
-        height: 3rem;
-        margin-bottom: 1rem;
-        color: #ffffff;
-        font-weight: 700;
-        font-family: tommy;
-
-        :hover {
-            background-color: #159715;
-        }
-    }
-
-    span {
-        color: #0dd60d;
-    }
-    textarea{
-        background-color: #ebebeb;
-            margin-bottom: 0.2rem;
-            border: none;
-            box-shadow: 0 0 5px rgba(210, 210, 210, 0.449);
-            width: 27.5rem;
-            padding: 0 1rem 0 1rem;
-            font-size: 1rem;
-            font-weight: 600;
-            font-family: tommy;
-            height: 10rem;
-            resize: none;
-    }
-
-    input {
-        background-color: #ebebeb;
-        margin-bottom: 0.2rem;
-        border: none;
-        box-shadow: 0 0 5px rgba(210, 210, 210, 0.449);
-        width: 27.5rem;
-        padding: 0 1rem 0 1rem;
-        font-size: 1rem;
-        font-weight: 600;
-        font-family: tommy;
-        height: 3rem;
-        
-        &:focus {
-            border: 1px solid #20a920;
-        }
-    }
-
-    .transports {
-        margin: 1rem 0 1rem 0;
-    }
-}
-.banner-home {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-direction: row;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.rowers{
-display: flex;
-    flex-direction: row;
-    gap: .2rem;
-#names {
-    width: 13.6rem;
-}
-}
-img{
-    height: fit-content;
-    width: 40rem;
-    z-index: 0;
-}
-.background-pop{
+.container {
+    margin-top: 2rem;
     width: 100%;
-    height: 100%;
-    z-index: 20;
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00000061;
+    height: 70%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
-.pop{
-    width: 27.5rem;
-    height: 12.5rem;
-    border-radius: 0.5rem;
-    background-color: #ffffff;
-    z-index: 21;
-    text-align: center;
+
+.form {
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: tommy;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: tommy;
+    color: #333;
+}
+
+h2 span {
+    color: #117B48;
+}
+
+.input-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    height: 2rem;
+}
+.names{
+    width: 10rem;
+    height: 2rem;
+}
+
+.input-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+input{
+    width: 21rem;
+    height: 2rem;
+    /* Adjust width for input fields */
+    /* Adjust padding as needed */
+    /* Add margin between inputs */
+    background-color: #EFEFEF;
+    border-radius: 1rem;
+    border: none;
+}
+button {
+    width: 21rem;
+    height: 2rem;
+    /* Adjust width for input fields */
+    /* Adjust padding as needed */
+    /* Add margin between inputs */
+    background-color: #117B48;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: tommy;
+    color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+}
+.tall{
+    height: 10rem;
+}
+
+.image{
+    margin-top: 4rem;
+    width: 20rem;
+    height: fit-content;
+    background-color: #117B48;
+    img {
+        width: 20rem;
+        }
+}
+
+@media only screen and (min-width: 515px) {
+    .form{
+        input{
+            width: 26rem;
+        }
+        .names{
+            width: 12.5rem;
+        }
+        button{
+            width: 26rem;
+
+        }
+    }
+}
+@media only screen and (min-width: 700px) {
+.image {
+    margin-top: 0rem;
+        width: 25rem;
+        height: fit-content;
+        background-color: #117B48;
+
+        img {
+            width: 25rem;
+        }
+    }
+}
+@media only screen and (min-width: 990px) {
     h1{
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-top: 2rem;
-        padding: 0 3rem;
+        font-size: 2.5rem;
     }
-    button{
-        margin-top: 1rem;
-        background-color: #484848;
-            border: none;
-            width: 10rem;
-            height: 3rem;
-            border-radius: 0.5rem;
-            color: #ffffff;
-            font-weight: 700;
-            font-family: tommy;
+    h2{
+        font-size: 1rem;
     }
-}
-#trust {
-    float: left;
-    margin: 0.2rem;
-    font-size: 1.4rem;
-    color: #484848;
-    cursor: pointer;
+    .container {
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    .image {
+        margin-top: 0;
+        width: 35rem;
+        height: fit-content;
+        background-color: #117B48;
+
+        img {
+            width: 35rem;
+        }
+    }
+
 }

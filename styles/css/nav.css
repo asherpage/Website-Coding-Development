@@ -120,10 +120,6 @@ nav ul a {
   padding: 0 1rem;
 }
 
-#active {
-  color: #1cb629;
-}
-
 #active:hover {
   color: white;
 }
@@ -143,7 +139,7 @@ nav ul a:hover {
 
 .logo img {
   position: absolute;
-  width: 16rem;
+  width: fit-content;
   height: 3rem;
   top: 0.5rem;
   left: 1rem;
